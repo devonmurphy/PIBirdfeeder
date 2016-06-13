@@ -1,14 +1,14 @@
-#!/usr/bin/env python
 from picamera import PiCamera
 import datetime
 camera = PiCamera()
 def takepicture():
         localtime = datetime.datetime.now()
-        name="%s-%s-%s--%s:%s:%s"%(localtime.year,localtime.month,localtime.day,localtime.hour,localtime.minute,localtime.second)
+        name="%s-%s-%s-%s:%s:%s"%(localtime.year,localtime.month,localtime.day,localtime.hour,localtime.minute,localtime.second)
         camera.capture('/var/www/html/%s.jpg'%name)
-        print("Picture saved as "+name+".jpg")
+        print("Picture saved as "+name)
 
 takepicture()
+
 """
 while(1):
 	hold =''
