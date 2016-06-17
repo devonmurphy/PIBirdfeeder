@@ -5,10 +5,14 @@
 
 <button id="takePic">Take Picture</button>
 <button id="clean">Delete Pictures</button>
-
+<button id="birdfeeder">Start Birdfeeder</button>
+<button id="stop">Stop Birdfeeder</button>
 <p></p>
 <script type="text/javascript">
-    $(document).ready(function(){
+  var interval = setInterval(function(){
+	location.reload();
+},10000);  
+   $(document).ready(function(){
         $("#takePic").click(function(){
             $.ajax({
                 type: 'POST',
@@ -26,6 +30,25 @@
 		    location.reload(); 
                 }
             });
+   });
+	$("#birdfeeder").click(function(){
+            $.ajax({
+                type: 'POST',
+                url: 'birdfeeder.php',
+                success: function(data) {
+		    location.reload(); 
+                }
+            });
+   });
+	$("#stop").click(function(){
+            $.ajax({
+                type: 'POST',
+                url: 'stop.php',
+                success: function(data) {
+		    location.reload(); 
+                }
+            });
+ 
    });
 
 });
