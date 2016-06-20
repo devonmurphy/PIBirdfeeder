@@ -18,5 +18,6 @@ while True:
     pir.wait_for_no_motion(motion_timeout)
     camera.stop_recording()
     print 'motion ended'
-    os.system("sudo ./grive -u")
+    os.system("sudo grive -u -f")
+    os.system("sudo rm *.jpg *.h264")
     time.sleep(next_video_timeout);

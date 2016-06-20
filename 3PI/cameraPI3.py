@@ -10,6 +10,6 @@ def takepicture():
         
 	camera.capture('%s.jpg'%name)
         print("Picture saved as "+name)
-	os.system("sudo ./grive -u")
-
+	os.system("sudo grive -u -f")
+	os.system("sudo rm *.jpg")
 takepicture()
