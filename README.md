@@ -46,7 +46,7 @@ Copy and paste it in to the terminal.
 <pre>
 sudo  python camera.py
 </pre>
-**Start The Birdfeeder*
+**Start The Birdfeeder**
 <pre>
 sudo python birdfeeder.py
 </pre>
