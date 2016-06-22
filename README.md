@@ -38,7 +38,7 @@ sudo git clone github.com/devonmurphy/PIBirdfeeder
 cd PIbirdfeeder/
 grive -a -u -f
 </pre>
-Google will then give a link with a hash that can be used to authenticate a folder to sync with google drive.
+Grive will return a link with to a hash that can be used to authenticate a folder to sync with google drive.
 
 **Take A Picture**
 <pre>
