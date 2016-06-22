@@ -2,7 +2,7 @@
 
 This project uses a Raspberry Pi connected to a camera and motion sensor to take pictures and videos of birds as they fly up to eat at a feeder.
 
-The files are uploaded to google drive with Grive2 and then deleted locally. This insures that the Pi will never run out of memory.
+The files are uploaded to Google drive with Grive2 and then deleted locally. This insures that the Pi will never run out of memory.
 
 #Dependencies
 
@@ -36,7 +36,7 @@ sudo git clone github.com/devonmurphy/PIBirdfeeder
 cd PIbirdfeeder/python
 grive -a -u -f
 </pre>
-Grive will return a link to a hash that can be used to authenticate a folder to sync with google drive.
+Grive will return a link to a hash that can be used to authenticate a folder to sync with Google drive.
 
 After an account is connected the Pi can then save the videos and pictures it takes to the cloud.
 
