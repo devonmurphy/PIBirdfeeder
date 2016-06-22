@@ -8,18 +8,18 @@ To insure that the Pi does not run out of memory, the files are deleted locally 
 
 #Dependencies
 
-*Grive2*
+**Grive2**
 
 This module gives the Pi the ability to upload files to a Google drive.
 
 http://yourcmc.ru/wiki/Grive2#Installation
 
-*Applications*
+**Applications**
 <pre>
 sudo apt-get install python
 </pre>
 
-*Python Libraries*
+**Python Libraries**
 <pre>
 pip install gpiozero
 pip install picamera
