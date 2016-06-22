@@ -39,6 +39,7 @@ cd PIbirdfeeder/
 grive -a -u -f
 </pre>
 Google will then give a link with a hash that can be used to authenticate a folder to sync with google drive.
+
 **Take A Picture**
 <pre>
 sudo  python camera.py
