@@ -1,2 +1,18 @@
-#PI BIRD FEEDER
-The goal of this project is to make a bird feeder that takes pictures of the birds as they fly up to eat. Currently the project uses one PIR sensor to detect if a bird is in the feeder or not. When the bird is detected, a picture is taken and is saved to an Apache website. You can access these by typing in the IP of your Raspberry Pi in your browser as long as you are connected on the same network.
+#Raspberry PI-Powered Bird Feeder
+
+This project uses a Raspberry Pi connected to a camera and motion sensor to take pictures/videos of birds as they fly up to eat at a feeder.
+
+The files are uploaded to google drive and deleted locally so that the Pi will never run out of room.
+
+#Dependecies
+*Applications
+<pre>
+sudo apt-get install python
+</pre>
+
+*Python Libraries
+<pre>
+pip install gpiozero
+pip install picamera
+
+</pre>
