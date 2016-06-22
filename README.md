@@ -38,7 +38,7 @@ sudo git clone github.com/devonmurphy/PIBirdfeeder
 cd PIbirdfeeder/python
 grive -a -u -f
 </pre>
-Grive will return a link with to a hash that can be used to authenticate a folder to sync with google drive.
+Grive will return a link to a hash that can be used to authenticate a folder to sync with google drive.
 
 After an account is connected the Pi can then save the videos and pictures it takes to the cloud.
 
