@@ -4,15 +4,15 @@ This project uses a Raspberry Pi connected to a camera and motion sensor to take
 
 The files are uploaded to google drive and deleted locally so that the Pi will never run out of room.
 
-#Dependecies
-*Applications
+**Dependecies**
+
+*Applications*
 <pre>
 sudo apt-get install python
 </pre>
 
-*Python Libraries
+**Python Libraries**
 <pre>
 pip install gpiozero
 pip install picamera
-
 </pre>
