@@ -42,7 +42,7 @@ Google will then give a link with a hash that can be used to authenticate a fold
 
 **Take A Picture**
 <pre>
-sudo  python camera.py
+sudo python camera.py
 </pre>
 **Start The Birdfeeder**
 <pre>
