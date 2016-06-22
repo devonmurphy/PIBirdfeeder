@@ -33,12 +33,14 @@ pip install picamera
 <pre>
 sudo git clone github.com/devonmurphy/PIBirdfeeder
 </pre>
-**Authenticate With Google Drive**
+**Connect python Folder With Google Drive**
 <pre>
-cd PIbirdfeeder/
+cd PIbirdfeeder/python
 grive -a -u -f
 </pre>
 Grive will return a link with to a hash that can be used to authenticate a folder to sync with google drive.
+
+After an account is connected, the Pi can then sync the videos and pictures it takes.
 
 **Take A Picture**
 <pre>
