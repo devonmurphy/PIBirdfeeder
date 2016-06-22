@@ -38,10 +38,7 @@ sudo git clone github.com/devonmurphy/PIBirdfeeder
 cd PIbirdfeeder/
 grive -a -u -f
 </pre>
-Grive will give a link to a randomly generated hash that can be used to authenticate a folder to sync with a google drive.
-
-Copy and paste it in to the terminal.
-
+Google will then give a link with a hash that can be used to authenticate a folder to sync with google drive.
 **Take A Picture**
 <pre>
 sudo  python camera.py
