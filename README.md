@@ -4,7 +4,11 @@ This project uses a Raspberry Pi connected to a camera and motion sensor to take
 
 The files are uploaded to google drive and deleted locally so that the Pi will never run out of room.
 
-**Dependecies**
+**Dependencies**
+
+*Grive2*
+This module gives the Pi the ability to upload files to a Google drive.
+http://yourcmc.ru/wiki/Grive2#Installation
 
 *Applications*
 <pre>
