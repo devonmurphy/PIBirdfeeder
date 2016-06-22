@@ -26,3 +26,28 @@ sudo apt-get install python
 pip install gpiozero
 pip install picamera
 </pre>
+
+#Use
+
+**Download The Project**
+<pre>
+sudo git clone github.com/devonmurphy/PIBirdfeeder
+</pre>
+**Authenticate With Google Drive**
+<pre>
+cd PIbirdfeeder/
+grive -a -u -f
+</pre>
+Grive will give a link to a randomly generated hash that can be used to authenticate a folder to sync with a google drive.
+
+Copy and paste it in to the terminal.
+
+**Take A Picture**
+<pre>
+sudo  python camera.py
+</pre>
+**Start The Birdfeeder*
+<pre>
+sudo python birdfeeder.py
+</pre>
+
