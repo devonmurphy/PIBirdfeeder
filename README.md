@@ -38,7 +38,7 @@ grive -a -u -f
 </pre>
 Grive will return a link to a hash that can be used to authenticate a folder to sync with Google drive.
 
-After an account is connected the Pi can then save the videos and pictures it takes to the cloud.
+After an account is connected, the Pi can save the videos and pictures it takes to the cloud.
 
 **Take A Picture**
 <pre>
