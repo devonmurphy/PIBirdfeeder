@@ -2,9 +2,7 @@
 
 This project uses a Raspberry Pi connected to a camera and motion sensor to take pictures and videos of birds as they fly up to eat at a feeder.
 
-The files synced to google drive with Grive2 so that they can be easily accessed from anywhere.
-
-To insure that the Pi does not run out of memory the files are deleted locally after they are uploaded.
+The files are uploaded to google drive with Grive2 and then deleted locally. This insures that the Pi will never run out of memory.
 
 #Dependencies
 
