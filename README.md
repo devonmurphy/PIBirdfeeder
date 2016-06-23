@@ -4,27 +4,6 @@ This project uses a Raspberry Pi connected to a camera and motion sensor to take
 
 The files are uploaded to Google drive with Grive2 and then deleted locally. This insures that the Pi will never run out of memory.
 
-#Dependencies
-
-**Grive2**
-
-This module gives the Pi the ability to upload files to a Google drive.
-
-Follow the guide in this link:
-
-http://yourcmc.ru/wiki/Grive2#Installation
-
-**Applications**
-<pre>
-sudo apt-get install python
-</pre>
-
-**Python Libraries**
-<pre>
-pip install gpiozero
-pip install picamera
-</pre>
-
 #Use
 
 **Download The Project**
@@ -47,5 +26,26 @@ python camera.py
 **Start The Birdfeeder**
 <pre>
 sudo python birdfeeder.py
+</pre>
+
+#Dependencies
+
+**Grive2**
+
+This module gives the Pi the ability to upload files to a Google drive.
+
+Follow the guide in this link:
+
+http://yourcmc.ru/wiki/Grive2#Installation
+
+**Applications**
+<pre>
+sudo apt-get install python
+</pre>
+
+**Python Libraries**
+<pre>
+pip install gpiozero
+pip install picamera
 </pre>
 
