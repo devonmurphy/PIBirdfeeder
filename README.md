@@ -1,4 +1,4 @@
-#Raspberry PI-Powered Bird Feeder
+#Raspberry Pi-Powered Bird Feeder
 
 This project uses a Raspberry Pi connected to a camera and motion sensor to take pictures and videos of birds as they fly up to eat at a feeder.
 
