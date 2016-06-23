@@ -29,7 +29,7 @@ pip install picamera
 
 **Download The Project**
 <pre>
-sudo git clone github.com/devonmurphy/PIBirdfeeder
+git clone github.com/devonmurphy/PIBirdfeeder
 </pre>
 **Connect python Folder With Google Drive**
 <pre>
@@ -42,7 +42,7 @@ After an account is connected, the Pi can save the videos and pictures it takes 
 
 **Take A Picture**
 <pre>
-sudo python camera.py
+python camera.py
 </pre>
 **Start The Birdfeeder**
 <pre>
