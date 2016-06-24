@@ -20,4 +20,4 @@ while True:
     print 'motion ended'
     os.system("sudo grive -u -f")
     os.system("sudo rm *.jpg *.h264")
-    time.sleep(next_video_timeout);
+    time.sleep(next_video_timeout)

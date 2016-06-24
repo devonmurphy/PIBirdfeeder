@@ -2,7 +2,6 @@ from picamera import PiCamera
 import datetime
 import os
 
-
 def takepicture():
 	camera = PiCamera()
 	localtime = datetime.datetime.now()
@@ -12,4 +11,5 @@ def takepicture():
         print("Picture saved as "+name)
 	os.system("sudo grive -u -f")
 	os.system("sudo rm *.jpg")
+
 takepicture()
