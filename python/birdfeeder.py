@@ -4,6 +4,11 @@ from datetime import datetime
 import time
 import os
 
+
+if os.path.isfile('./authenticated')!=1:
+	os.system("sudo grive --dry-run -a")
+	f = open('authenticated','w')
+
 motion_timeout = 6;
 next_video_timeout = 0;
 camera = PiCamera()
